@@ -45,6 +45,8 @@ body {
 .wrapper {
   min-height: 100%;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 ._container {
@@ -127,4 +129,13 @@ body {
   .menu_link {
     font-size: 18px;
   }
+}
+/* -------------------------PAGE----------------------------------------------- */
+
+.page {
+  flex: 1 1 auto;
+}
+
+/* --------------------------ПОДВАЛ------------------------------------------- */
+.footer {
 }
