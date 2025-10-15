@@ -420,15 +420,30 @@ body {
 
 .advantades__item {
   background-color: #fff;
-  padding: 30px 40px;
+  padding: 30px;
+  font-weight: 700;
   text-align: center;
 }
 
+.advantades__item > *:not(:last-child) {
+  margin: 0px 0px 10px 0px;
+}
+
 .advantades__icon {
+  height: 48px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .advantades__value {
+  font-size: 40px;
+  line-height: 142%;
 }
 
 .advantades__text {
+  letter-spacing: 0.2px;
+  color: #737373;
+  font-size: 16px;
+  line-height: 150%;
 }
