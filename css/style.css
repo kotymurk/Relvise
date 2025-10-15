@@ -36,6 +36,7 @@ html,
 body {
   height: 100%;
   line-height: 1;
+  background-color: #fafafa;
   font-size: 14px;
   color: #252b42;
   font-weight: 500;
@@ -309,7 +310,6 @@ body {
 /* ---------------------------SERVICES----------------------------------------- */
 
 .services {
-  border-color: #fafafa;
 }
 
 .services__container {
@@ -399,7 +399,6 @@ body {
 
 .advantages {
   padding: 80px 0px;
-  border-color: #fafafa;
 }
 
 .advantages__container {
