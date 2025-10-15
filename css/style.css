@@ -153,6 +153,32 @@ body {
 }
 
 .page_services {
+  position: relative;
+  z-index: 2;
+  margin: -111px 0px 0px 0px;
+}
+
+.page__advantages {
+}
+/* --------------------------------HEADER-BLOCK-------------------------------- */
+.header-block {
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+
+.header-block__title {
+  line-height: 142%;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.header-block__title:not(:last-child) {
+  margin: 0px 0px 10px 0px;
+}
+
+.header-block__sub-title {
+  line-height: 142%;
+  color: #737373;
 }
 
 /* --------------------------ПОДВАЛ------------------------------------------- */
@@ -180,7 +206,12 @@ body {
 @media (max-width: 992px) {
   .main-block_body {
     padding: 120px 0px 191px 0px;
-    max-width: 100%;
+  }
+}
+
+@media (max-width: 479px) {
+  .main-block_body {
+    padding: 115px 0px 160px 0px;
   }
 }
 
@@ -278,25 +309,57 @@ body {
 /* ---------------------------SERVICES----------------------------------------- */
 
 .services {
+  border-color: #fafafa;
 }
 
 .services__container {
 }
 
 .services__body {
-  display: flex;
-  margin: 0px -15px;
+}
+
+@media (min-width: 670px) {
+  .services__body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -15px -30px;
+  }
 }
 
 .services__column {
-  padding: 0px 15px;
   flex: 0 1 33.3333%;
 }
 
+@media (min-width: 670px) {
+  .services__column {
+    padding: 0px 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .services__column {
+    flex: 0 1 50%;
+  }
+  .services__column:not(:last-child) {
+    margin: 0px 0px 30px 0px;
+  }
+
+  .services__column:last-child {
+    flex: 1 1 100%;
+  }
+}
+
 .services__item {
+  height: 100%;
   box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
   background-color: #fff;
   padding: 35px;
+}
+
+@media (max-width: 479px) {
+  .services__item {
+    padding: 35px;
+  }
 }
 
 .item-service {
@@ -330,4 +393,43 @@ body {
 .item-service_text {
   color: #737373;
   line-height: 142%;
+}
+
+/* -------------------ADVANTAGES----------------------------------------------- */
+
+.advantages {
+  padding: 80px 0px;
+  border-color: #fafafa;
+}
+
+.advantages__container {
+}
+
+.advantages__header {
+  margin: 0px 0px 50px 0px;
+}
+
+.advantages__body {
+  display: flex;
+  margin: 0px -15px;
+}
+
+.advantades__column {
+  padding: 0px 15px;
+  flex: 0 1 25%;
+}
+
+.advantades__item {
+  background-color: #fff;
+  padding: 30px 40px;
+  text-align: center;
+}
+
+.advantades__icon {
+}
+
+.advantades__value {
+}
+
+.advantades__text {
 }
