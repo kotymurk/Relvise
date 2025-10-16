@@ -165,9 +165,11 @@ body {
 .page__practice {
 } */
 
-.page__whoweare {
+/* .page__whoweare {
 }
 
+.page__clients {
+} */
 /* --------------------------------HEADER-BLOCK-------------------------------- */
 .header-block {
   text-align: center;
@@ -600,17 +602,22 @@ body {
 /* --------------------------WHOWEARE------------------------ */
 
 .whoweare {
+  background-color: #fff;
   padding: 80px 0px 130px 0px;
 }
-.whoweare__container {
-}
+
+/* .whoweare__container {
+} */
+
 .whoweare__header {
   margin: 0px 0px 100px 0px;
 }
 
 .whoweare__body {
   display: flex;
+  align-items: flex-start;
 }
+
 .whoweare__video {
   flex: 0 0 57%;
   position: relative;
@@ -628,13 +635,51 @@ body {
 
 .whoweare__content {
   flex: 1 1 auto;
-  padding: 0px 0px 0px 121px;
+  padding: 20px 0px 0px 121px;
 }
+
+@media (max-width: 1080px) {
+  .whoweare__content {
+    padding: 0px 0px 0px 50px;
+  }
+}
+
 .whoweare__title {
   font-weight: 800;
   font-size: 40px;
   line-height: 142%;
   letter-spacing: 0.2px;
+}
+
+@media (max-width: 950px) {
+  .whoweare {
+    padding: 50px 0px 50px 0px;
+  }
+
+  .whoweare__title {
+    font-size: 24px;
+  }
+
+  .whoweare__content {
+    padding: 0px 0px 0px 0px;
+  }
+
+  .whoweare__video {
+    padding: 0px 0px 56.25% 0px;
+  }
+
+  .whoweare__video:not(:last-child) {
+    margin: 50px 0px 0px 0px;
+  }
+
+  .whoweare__header {
+    margin: 0px 0px 30px 0px;
+  }
+
+  .whoweare__body {
+    flex-direction: column-reverse;
+    align-items: stretch;
+  }
 }
 
 .whoweare__title:not(:last-child) {
@@ -650,11 +695,11 @@ body {
   margin: 0px 0px 50px 0px;
 }
 
-.whoweare__items {
+/* .whoweare__items {
 }
 
 .whoweare__item {
-}
+} */
 
 .whoweare__item:not(:last-child) {
   margin: 0px 0px 30px 0px;
@@ -685,5 +730,49 @@ body {
 
 .item-whoweare__text {
   color: #737373;
+  white-space: nowrap;
   letter-spacing: 142%;
+  width: 225px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 767px) {
+  .whoweare {
+    padding: 20px 0px 50px 0px;
+  }
+
+  .whoweare__top:not(:last-child) {
+    margin: 0px 0px 30px 0px;
+  }
+
+  .whoweare__video:not(:last-child) {
+    margin: 30px 0px 0px 0px;
+  }
+}
+
+/* ----------------------CLIENTS----------------------- */
+
+.clients {
+  padding: 50px 0;
+}
+@media (max-width: 767px) {
+  .clients {
+    padding: 30px 0;
+  }
+}
+.clients__items {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.clients__item {
+  padding: 8px 15px;
+  flex: 0 1 16.6667%;
+  text-align: center;
+  min-width: 140px;
+}
+.clients__item img {
+  max-width: 100%;
 }
