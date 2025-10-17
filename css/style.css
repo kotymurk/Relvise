@@ -181,8 +181,8 @@ body {
 /* .page__getintouch {
 } */
 
-.page__contact {
-}
+/* .page__contact {
+} */
 /* --------------------------------HEADER-BLOCK-------------------------------- */
 .header-block {
   text-align: center;
@@ -1039,8 +1039,8 @@ body {
   padding: 42px 0px;
 }
 
-.contact__container {
-}
+/* .contact__container {
+} */
 
 .contact__content {
   padding: 0px 0px 20px 0px;
@@ -1093,16 +1093,16 @@ body {
 
 /*--------------------------- FOOTER--------------------- */
 
-.footer {
-}
+/* .footer {
+} */
 
 .footer__top {
   background: #17213c;
   padding: 35px 0px;
 }
 
-.footer__main {
-}
+/* .footer__main {
+} */
 
 .footer__row {
   display: flex;
@@ -1143,7 +1143,7 @@ body {
   line-height: 150%;
 }
 
-.footer__menu {
+/* .footer__menu {
 }
 
 .menu-footer {
@@ -1153,7 +1153,7 @@ body {
 }
 
 .menu-footer__item {
-}
+} */
 
 .menu-footer__item:not(:last-child) {
   margin: 0px 0px 10px 0px;
@@ -1169,8 +1169,8 @@ body {
   text-decoration: underline;
 }
 
-.footer__contacts {
-}
+/* .footer__contacts {
+} */
 
 .contacts-footer {
   display: flex;
@@ -1221,8 +1221,8 @@ body {
   line-height: 171%;
 }
 
-.footer__social {
-}
+/* .footer__social {
+} */
 
 .social {
   display: flex;
