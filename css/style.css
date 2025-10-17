@@ -175,7 +175,10 @@ body {
 /* .page__subscribe {
 } */
 
-.page__getintouch {
+/* .page__getintouch {
+} */
+
+.page__contact {
 }
 /* --------------------------------HEADER-BLOCK-------------------------------- */
 .header-block {
@@ -798,8 +801,8 @@ body {
   background: #252b42;
 }
 
-.subscribe__container {
-}
+/* .subscribe__container {
+} */
 
 .subscribe__body {
   position: relative;
@@ -897,8 +900,8 @@ body {
   padding: 80px 0px 135px 0px;
 }
 
-.getintouch__container {
-}
+/* .getintouch__container {
+} */
 
 .getintouch__header {
   margin: 0px 0px 80px 0px;
@@ -936,8 +939,8 @@ body {
   margin: 0px 0px 15px 0px;
 }
 
-.item-getintouch__icon {
-}
+/* .item-getintouch__icon {
+} */
 
 .item-getintouch__emails {
   display: flex;
@@ -1006,4 +1009,62 @@ body {
   .item-getintouch_active {
     padding: 50px 15px;
   }
+}
+
+/* --------------------------CONTACT----------------------- */
+
+.contact {
+  background-color: #fff;
+  padding: 42px 0px;
+}
+
+.contact__container {
+}
+
+.contact__content {
+  padding: 0px 0px 20px 0px;
+}
+
+@media (min-width: 767px) {
+  .contact__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .contact__content {
+    padding: 0px 20px 0px 0px;
+  }
+}
+
+.contact__title {
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  font-size: 24px;
+  line-height: 133%;
+}
+
+.contact__title:not(:last-child) {
+  margin: 0px 0px 10px 0px;
+}
+
+.contact__text {
+  color: #737373;
+  line-height: 142%;
+}
+
+.contact__button {
+  display: flex;
+  background: #ff7b47;
+  border-radius: 5px;
+
+  min-height: 58px;
+  padding: 5px 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.contact__button:hover {
+  background: #ff5a1f;
 }
